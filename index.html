@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razibul Bari Razib</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>RBR</h1>
+        <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+        </div>
+    </div>
+    
+    <div class="aboutme">
+        <div class ="aboutme-content">
+        <h2>Hello!</h2>
+        <p>I am Razibul Bari Razib, a web developer with a passion for creating beautiful and functional websites. I have experience in HTML, CSS, and JavaScript, and I love to learn new technologies.
+            I am also adept Cyber Security Engineer, specializing in web security and ethical hacking. My goal is to build secure and efficient web applications that provide a great user experience.
+            Also, if you need a tech support, I am here to help you with that as well.
+        </p>
+        <button class="btn">Contact Me</button>
+        </div>
+        <div class="img">
+            <img src="https://avatars.githubusercontent.com/u/123456789?v=4" alt="Razibul Bari Razib">
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="services" class="specalization">
+        <h2>My Specializations</h2>
+        <div class="specalization-content">
+            <div class="spec-item">
+                <h3>Web Development</h3>
+                <p>Creating responsive and user-friendly websites using modern web technologies.</p>
+                <button class="btn2">Learn More</button>
+            </div>
+            <div class="spec-item">
+                <h3>Cyber Security</h3>
+                <p>Ensuring the security of web applications and protecting against cyber threats.</p>
+                <button class="btn2">Learn More</button>
+            </div>
+            <div class="spec-item">
+                <h3>Tech Support</h3>
+                <p>Providing technical support and troubleshooting for various tech-related issues.</p>
+                <button class="btn2">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+<div id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-list">
+        <div class="faq-item">
+            <button class="faq-question">What services do you offer?</button>
+            <div class="faq-answer">
+                <p>I offer web development, cyber security, and tech support services.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">How can I contact you?</button>
+            <div class="faq-answer">
+                <p>You can use the "Contact Me" button above or email me directly.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Do you provide remote support?</button>
+            <div class="faq-answer">
+                <p>Yes, I provide remote tech support and consultations online.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.addEventListener('click', function() {
+        const item = this.parentElement;
+        item.classList.toggle('active');
+    });
+});
+</script>
+
+<div class="contact">
+    <h2>Interested??Let us get in touch!</h2>
+    <p>If you have any questions or need assistance, feel free to reach out!</p>
+    <button class="btn">Contact Me</button>
+</div>
+
+<div class="achh">
+    <div class="acch0">
+        <h1>0</h1>
+        <p>Happy Clients</p>
+    </div>
+    <div class="acch0">
+        <h1>0</h1>
+        <p>Projects Done</p>
+    </div>
+    <div class="acch0">
+        <h1>0</h1>
+        <p>Years of Experience</p>
+    </div>
+</div>
+<br>
+<br>
+
+<div class="footer">
+    <div class="links">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Me</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <p>Contact me at:razibulbarirazib@gmail.com <a href="mailto:razibulbarirazib@gmail.com">Email Me</a></p>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2023 Razibul Bari Razib. All rights reserved.</p>
+    </div>
+</div>
+</body>
+</html>
